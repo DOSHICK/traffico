@@ -1,0 +1,65 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    font-weight: $f-light;
+    font-size: 18px;
+    color: #7d7987;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+.btn{
+    width: 200px;
+    padding: 17px 0px 17px 0px;
+    text-align: center;
+    
+    display: block;
+    border-radius: 55px;
+    border: 1.4px solid #458ff6;
+    background: #458ff6;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: $f-bold;
+    transition: all 0.3s ease;
+
+}
+.btn:hover{
+    background: #ffffff;
+    border: 1.4px solid #458ff6;
+    color: #458ff6;
+}
+.btn_empty{
+    border: 1.4px solid #458ff6;
+    color: #458ff6;
+    background: none;
+    
+}
+.btn_empty:hover{
+    color: #fff;
+    background: #458ff6;
+}
+span.section-decor{
+    margin: 26px 0px 30px 0px;
+    height: 2px;  
+    width: 56px;
+    display: block;
+    background: #000000;
+}
+h1, h2, h3, h4{
+    font-weight: $f-bold;
+    color: #000000;
+    line-height: 56px;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+    line-height: 32px;
+}

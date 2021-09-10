@@ -1,0 +1,32 @@
+header{
+    padding: 30px 0 0 0 ;
+    font-size: 18px;
+    
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+
+        }
+        .navigation__list {
+            display: flex;
+            flex-direction: row;
+
+
+            .navigation__item {
+                margin: 0 0 0 40px;
+                a.navigation__link {
+                    color: #1f1534;
+                    opacity: 0.5;
+                }
+                a.navigation__link_active{
+                    color: #1f1534;
+                    opacity: 1;
+                    font-weight: $f-bold;
+                }
+            }
+        }
+    }
+}
